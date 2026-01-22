@@ -93,7 +93,7 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-2">
                 <MapPin className="w-4 h-4" />{" "}
-                {lang === "de" ? "Portugal" : lang === "fr" ? "Portugal" : lang === "it" ? "Portogallo" : "Portugal"}
+                {lang === "de" ? "France" : lang === "fr" ? "France" : lang === "it" ? "Francia" : "France"}
               </li>
             </ul>
           </div>
