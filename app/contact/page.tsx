@@ -62,19 +62,19 @@ export default function ContactPage() {
     {
       icon: Phone,
       title: lang === "it" ? "Telefono" : lang === "fr" ? "Téléphone" : "Phone",
-      detail: "+33 7 56 91 80 43",
+      detail: "+33 7 80 90 21 63",
       description: lang === "fr" ? "Lun-Sam: 9h-18h" : lang === "it" ? "Lun-Sab: 9-18" : "Mon-Sat: 9am-6pm",
     },
     {
       icon: Mail,
       title: lang === "it" ? "Email" : "Email",
-      detail: "kauffmannbruno191@gmail.com",
+      detail: "auto-class1@outlook.fr",
       description: lang === "fr" ? "Réponse en 24h" : lang === "it" ? "Risposta in 24h" : "Response in 24h",
     },
     {
       icon: MapPin,
       title: lang === "it" ? "Indirizzo" : lang === "fr" ? "Adresse" : "Address",
-      detail: lang === "it" ? "Portogallo" : lang === "fr" ? "Portugal" : "Portugal",
+      detail: lang === "it" ? "French" : lang === "fr" ? "France" : "France",
       description:
         lang === "it"
           ? "Disponibile a francese e italiano"
@@ -301,10 +301,10 @@ export default function ContactPage() {
                 <MapPin className="w-12 h-12 mx-auto mb-4 opacity-50" />
                 <p>
                   {lang === "it"
-                    ? "Portogallo - Disponibile a francese e italiano"
+                    ? "France - Disponibile a francese e italiano"
                     : lang === "fr"
-                      ? "Portugal - Disponible en français et italien"
-                      : "Portugal - Available in French & Italian"}
+                      ? "France - Disponible en france et italie"
+                      : "France - Available in Frencia & Italia"}
                 </p>
                 <p className="text-sm mt-2">
                   {lang === "it"
