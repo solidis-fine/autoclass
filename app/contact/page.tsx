@@ -308,10 +308,10 @@ export default function ContactPage() {
                 </p>
                 <p className="text-sm mt-2">
                   {lang === "it"
-                    ? "Contattaci per una videochiamata o una riunione virtuale"
+                    ? "Contattaci per veicoli adatti alle tue esigenze"
                     : lang === "fr"
-                      ? "Contactez-nous pour un appel vidéo ou une réunion virtuelle"
-                      : "Contact us for a video call or virtual meeting"}
+                      ? "Contactez-nous pour des véhicules adapté à vos besoins"
+                      : "Contact us for vehicles tailored to your needs"}
                 </p>
               </div>
             </div>
