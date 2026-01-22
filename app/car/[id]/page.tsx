@@ -205,12 +205,12 @@ export default function CarDetail() {
                         </p>
                         <p className="font-semibold">
                           {lang === "de"
-                            ? "Portugal"
+                            ? "France"
                             : lang === "it"
                               ? "Portogallo"
                               : lang === "fr"
-                                ? "Portugal"
-                                : "Portugal"}
+                                ? "France"
+                                : "France"}
                         </p>
                       </div>
                     </div>
