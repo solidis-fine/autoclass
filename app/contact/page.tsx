@@ -79,8 +79,8 @@ export default function ContactPage() {
         lang === "it"
           ? "Disponibile a francese e italiano"
           : lang === "fr"
-            ? "Disponible en français et italien"
-            : "Available in French & Italian",
+            ? "Disponible en France"
+            : "Available in Frencia",
     },
     {
       icon: Clock,
@@ -303,8 +303,8 @@ export default function ContactPage() {
                   {lang === "it"
                     ? "France - Disponibile a francese e italiano"
                     : lang === "fr"
-                      ? "France - Disponible en france et italie"
-                      : "France - Available in Frencia & Italia"}
+                      ? "France - Disponible en France "
+                      : "France - Available in Frencia "}
                 </p>
                 <p className="text-sm mt-2">
                   {lang === "it"
