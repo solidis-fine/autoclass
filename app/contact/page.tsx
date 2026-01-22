@@ -216,7 +216,7 @@ export default function ContactPage() {
                           name="phone"
                           value={formData.phone}
                           onChange={handleChange}
-                          placeholder="+33 7 56 91 80 43"
+                          placeholder="+33 7 80 90 21 63"
                         />
                       </div>
                       <div>
